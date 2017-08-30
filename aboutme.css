@@ -1,0 +1,73 @@
+body {
+    background-color: royalblue;
+    line-height: 50px;
+}
+
+h1 {
+    font-size: 2.7em;
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFA900;
+    background-color: rgba(81, 225, 0, 0.4);
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    color: rgb(81, 209, 79)
+}
+
+p {
+    font-size: 1.7em;
+    font-family: 'Asap', sans-serif;
+    color: rgb(224, 189, 5);
+}
+
+b {
+    text-decoration: underline;
+}
+
+ul {
+   font-size: 1.3em; 
+   font-family: 'Kanit', sans-serif ;
+   list-style: square;
+   color: rgb(90, 172, 44);
+}
+
+ol { 
+   font-size: 1.3em; 
+}
+
+#interest{
+    font-size: 2em;
+}
+
+#places{
+     font-size: 2em;   
+}
+
+#favorite{
+    font-size: 2em;
+}
+
+#games{
+    font-size: 2em;
+}
+
+a:link {
+    color: yellow;
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(237, 189, 70);
+}
+
+a:hover{
+    color: rgb(81, 189, 255);
+    text-decoration: underline;
+}
+
+a:active{
+    color: red;
+}
