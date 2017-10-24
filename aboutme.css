@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(224, 235, 236);
+    line-height: 50px;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(29, 29, 29);
+    font-family: 'Patua One', cursive;
+}
+
+.nav {
+    float: left;
+}    
+
+.nav a {
+    display: block;
+    padding: 8px;
+}
+
+div {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h1 {
+    font-size: 2.7em;
+    font-family: 'Comfortaa', cursive;
+    color: #FFA900;
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    color: rgb(81, 209, 79);
+    background-color: rgb(67, 126, 155);
+    opacity: 0.5;
+}
+
+p {
+    font-size: 1.7em;
+    font-family: 'Asap', sans-serif;
+    color: rgb(67, 126, 155);
+}
+
+b {
+    text-decoration: underline;
+}
+
+li {
+   font-size: 1.5em; 
+   font-family: 'Comfortaa', cursive;
+   color: rgb(96, 125, 147);
+}
+
+li:hover {
+    font-size: 3em;
+}
+
+.header {
+    margin-top: 0px;
+    border: 8px solid rgb(0, 51, 102);
+    padding: 0px 30px 10px;
+    background-color: rgb(225, 107, 0);
+}
+
+.img {
+    border-radius: 50%;
+    width: 19em;
+    height: 20em;
+    display: block;
+    margin: auto;
+}
+
+.information {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.list {
+    margin: 0px;
+    padding: 0px;
+}
+
+.img2 {
+    border-radius: 50%;
+    width: 12em;
+    height: 12em;
+    display: block;
+    margin: auto;
+}
+
+.topics {
+    text-decoration: underline;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    font-size: 3em;
+}
+
+.topics:hover {
+    font-size: 3em;
+}
+
+a:link {
+    color: yellow;
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(237, 189, 70);
+}
+
+a:hover{
+    color: rgb(81, 189, 255);
+    text-decoration: none;
+}
+
+a:active{
+    color: red;
+}
