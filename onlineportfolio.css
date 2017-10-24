@@ -1,0 +1,80 @@
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(29, 29, 29);
+    font-family: 'Patua One', cursive;
+}
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+}
+
+body {
+    background-color: rgb(224, 235, 236);
+}
+
+.summary {
+    font-size: 2em;
+    font-family: 'Comfortaa', cursive;
+    color: rgb(96, 125, 147);
+}
+
+.picplaces {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+
+.placeimg {
+    width: 45em;
+    height: 26em;
+}
+
+footer {
+    background-color: rgb(68, 62, 63);
+}
+
+.Social {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    margin: auto;
+    padding: 12px;
+    color: rgb(96, 125, 147);
+}
+
+
+.Credit {
+    font-size: 12px;    
+    text-align: center;
+    color: rgb(96, 125, 147);
+}
+
+a:link {
+    color: rgb(229, 148, 0);   
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(229, 148, 0);   
+    text-decoration: none;
+}    
+
+a:hover {
+    color: rgb(71, 182, 107);
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(71, 182, 107);   
+    text-decoration: underline;
+}
+
