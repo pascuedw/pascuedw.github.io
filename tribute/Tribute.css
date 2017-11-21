@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(99, 70, 55);
+}
+
+footer {
+    background-color: rgb(38, 50, 49);
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+}
+
+h2 {
+    font-family: 'Crimson Text', serif;
+}
+
+p, a{
+    font-family: 'Roboto Slab', serif;
+}
+
+.img-thumbnail {
+    width: 200px;
+    width: 100%;
+    margin: auto;
+}
+
+.jumbotron {
+    background-color: rgb(181, 158, 123);   
+}
+
+.well {
+    background-color: rgb(181, 158, 123);
+}
+
+.Title-Cite {
+    color: rgb(113, 117, 123);
+}
+
+.ip {
+    height: 212px;
+}
+
+.chara {
+    margin-top: 2em;
+}
+
+.animator-flip{
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(181, 158, 123);
+    border: solid 1px  rgb(99, 70, 55);
+}
+
+.animator-panel {
+    display: none;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: rgb(181, 158, 123);
+}
