@@ -1,0 +1,40 @@
+body {
+    background-color: DarkSlateGrey;
+}
+
+.navbar {
+    background-color: LightSlateGrey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.container {
+    padding: 16px;
+    margin-top: 70px;
+    z-index: 2;
+}
+
+.jumbotron {
+    background-color: LightSlateGrey;
+}
+
+h1, h3, h4, p {
+    color: white;
+}
+
+img {
+    width: 300px;
+}
+
+#cart {
+    height: 40px;
+    width: 40px;
+    opacity: 1.0;
+}
+
+.thumbnail {
+    background-color: rgb(100, 113, 157);
+}
