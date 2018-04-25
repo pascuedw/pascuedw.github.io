@@ -1,46 +1,61 @@
-.navigation {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(29, 29, 29);
+.navbar {
+    background-color: Black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    opacity: 0.86;
     font-family: 'Patua One', cursive;
 }
 
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    padding: 8px;
+.container {
+    padding: 16px;
+    margin-top: 40px;
+    z-index: 2;
 }
 
 body {
     background-color: rgb(224, 235, 236);
+    height: 100%;
 }
 
-.summary {
+
+.Myname {
     font-size: 2em;
     font-family: 'Comfortaa', cursive;
     color: rgb(96, 125, 147);
 }
 
-.picplaces {
-    border: 1px solid black;
-    border-collapse: collapse;
-    text-align: center;
-    
+h2 {
+    font-size: 1.9em;
 }
 
-.placeimg {
-    width: 45em;
-    height: 26em;
-}
 
 footer {
     background-color: rgb(68, 62, 63);
+}
+
+th {
+    text-align: center;
+}
+
+.picplaces {
+    /*border: 1px solid black;*/
+    border-collapse: collapse;
+    text-align: center;
+    position: relative;
+    
+}
+
+#tableName {
+    font-size: 1em;
+    color: rgb(96, 125, 147);
+}
+
+.trans-background {
+    opacity: 0.3;
+    height: 26em;
+    width: 23em;
 }
 
 .Social {
@@ -77,4 +92,3 @@ a:active {
     color: rgb(71, 182, 107);   
     text-decoration: underline;
 }
-
