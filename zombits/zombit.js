@@ -50,15 +50,6 @@ function updateGUI(){
     
 }
 
-/*function restart(indexZombies){
-    sceneTime = 0;
-    time.reset();
-    score = 0;
-    tPlayer.setPosition(350, 55);
-    zombies[indexZombies].respawn();
-    game.start();
-}*/
-
 function init(){
     gui = document.getElementById('gui');
     game = new Scene();
