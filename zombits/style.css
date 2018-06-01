@@ -1,0 +1,26 @@
+body {
+    background-color: #228B22;
+}
+
+canvas {
+    margin: auto;
+    position: absolute;
+    padding: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-style: solid;
+    border-color: #D2691E;
+    border-width: 20px;
+}
+
+#gui {
+    text-align: center;
+    
+}
+
+#inform {
+    text-align: center;
+    margin-top: 50em;
+}
